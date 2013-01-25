@@ -1,5 +1,5 @@
 /**
- * rolloverChildren
+ * rolloverDescendant
  *
  * 子孫要素へロールオーバー機能を提供する
  *
@@ -9,7 +9,7 @@
  * </ul>
  * }
  * {@code
- * $('ul').rolloverChildren();
+ * $('ul').rolloverDescendant();
  * }
  *
  * @param {Object} options key/value pair
@@ -17,7 +17,7 @@
  * <li>suffix ロールオーバー画像の接尾辞
  * <li>画像の拡張子
  */
-jQuery.fn.rollover = function(options) {
+jQuery.fn.rolloverDescendant = function(options) {
     options =  options || {
         selector: 'img',
         suffix: '_over',
