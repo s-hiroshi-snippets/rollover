@@ -1,12 +1,15 @@
 /**
- * rollover
+ * rolloverChildren
  *
- * HTMLUlElementの子孫要素のロールオーバー機能を提供する
+ * 子孫要素へロールオーバー機能を提供する
  *
  * {@code
  * <ul>
  *   <li><img src=""></li>
  * </ul>
+ * }
+ * {@code
+ * $('ul').rolloverChildren();
  * }
  *
  * @param {Object} options key/value pair
